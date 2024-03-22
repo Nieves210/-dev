@@ -12,4 +12,23 @@ body{
         color: rgb(101, 43, 237);
     }
 
-    
+    @keyframes deneme {
+        0%{
+            color:aquamarine;
+        }
+        50%{
+            color:brown;
+        }
+        100%{
+            color:pink;
+        }
+    }
+
+    h3{
+        animation: deneme 3s infinite ;
+
+    }
+
+    ul:hover {
+        animation: deneme 3s infinite ;
+    }
